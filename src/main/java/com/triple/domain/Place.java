@@ -16,9 +16,8 @@ public class Place {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Type(type = "uuid-char")
     @Column
-    private UUID placeId;
+    private String placeId;
 
     @OneToMany(mappedBy = "place")
     @JsonManagedReference

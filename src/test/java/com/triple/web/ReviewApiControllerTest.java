@@ -1,7 +1,7 @@
 //package com.triple.web;
 //
 //import com.triple.domain.Review;
-//import com.triple.domain.ReviewRepository;
+//import com.triple.repository.ReviewRepository;
 //import com.triple.web.dto.ReviewModRequestDto;
 //import com.triple.web.dto.ReviewSaveRequestDto;
 //import org.junit.After;

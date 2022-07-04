@@ -16,9 +16,8 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Type(type = "uuid-char")
     @Column
-    private UUID userId;
+    private String userId;
 
     @OneToMany(mappedBy = "user")
     @JsonManagedReference
